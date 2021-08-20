@@ -1,0 +1,1073 @@
+'VB macro for coding tekst to numbers
+
+Sub Coding()
+
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "11110"
+        .Replacement.Text = ""
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    With Selection.Find
+        .Text = "A"
+        .Replacement.Text = "110"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "a"
+        .Replacement.Text = "120"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ą"
+        .Replacement.Text = "130"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ą"
+        .Replacement.Text = "140"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "B"
+        .Replacement.Text = "150"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "b"
+        .Replacement.Text = "160"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "C"
+        .Replacement.Text = "170"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "c"
+        .Replacement.Text = "180"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ć"
+        .Replacement.Text = "190"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ć"
+        .Replacement.Text = "210"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "D"
+        .Replacement.Text = "220"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "d"
+        .Replacement.Text = "230"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "E"
+        .Replacement.Text = "240"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "e"
+        .Replacement.Text = "250"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ę"
+        .Replacement.Text = "260"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ę"
+        .Replacement.Text = "270"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "F"
+        .Replacement.Text = "280"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "f"
+        .Replacement.Text = "290"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "G"
+        .Replacement.Text = "310"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "g"
+        .Replacement.Text = "320"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "H"
+        .Replacement.Text = "330"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "h"
+        .Replacement.Text = "340"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "I"
+        .Replacement.Text = "350"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "i"
+        .Replacement.Text = "360"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "J"
+        .Replacement.Text = "370"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "j"
+        .Replacement.Text = "380"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "K"
+        .Replacement.Text = "390"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "k"
+        .Replacement.Text = "410"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "L"
+        .Replacement.Text = "420"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "l"
+        .Replacement.Text = "430"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ł"
+        .Replacement.Text = "440"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ł"
+        .Replacement.Text = "450"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "M"
+        .Replacement.Text = "460"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "m"
+        .Replacement.Text = "470"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "N"
+        .Replacement.Text = "480"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "n"
+        .Replacement.Text = "490"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ń"
+        .Replacement.Text = "510"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ń"
+        .Replacement.Text = "520"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "O"
+        .Replacement.Text = "530"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "o"
+        .Replacement.Text = "540"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ó"
+        .Replacement.Text = "550"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ó"
+        .Replacement.Text = "560"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "P"
+        .Replacement.Text = "570"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "p"
+        .Replacement.Text = "580"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "R"
+        .Replacement.Text = "590"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "r"
+        .Replacement.Text = "610"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "S"
+        .Replacement.Text = "620"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "s"
+        .Replacement.Text = "630"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ś"
+        .Replacement.Text = "640"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ś"
+        .Replacement.Text = "650"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "T"
+        .Replacement.Text = "660"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "t"
+        .Replacement.Text = "670"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "U"
+        .Replacement.Text = "680"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "u"
+        .Replacement.Text = "690"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "W"
+        .Replacement.Text = "710"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "w"
+        .Replacement.Text = "720"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Y"
+        .Replacement.Text = "730"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "y"
+        .Replacement.Text = "740"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Z"
+        .Replacement.Text = "750"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "z"
+        .Replacement.Text = "760"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ź"
+        .Replacement.Text = "770"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ź"
+        .Replacement.Text = "780"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "Ż"
+        .Replacement.Text = "790"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "ż"
+        .Replacement.Text = "810"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+
+    With Selection.Find
+        .Text = "."
+        .Replacement.Text = "820"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = ","
+        .Replacement.Text = "830"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "!"
+        .Replacement.Text = "840"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "?"
+        .Replacement.Text = "850"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "("
+        .Replacement.Text = "860"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = ")"
+        .Replacement.Text = "870"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = ";"
+        .Replacement.Text = "880"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = ":"
+        .Replacement.Text = "890"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "^p"
+        .Replacement.Text = "980"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = " "
+        .Replacement.Text = "990"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "–"
+        .Replacement.Text = "910"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "-"
+        .Replacement.Text = "920"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = """"
+        .Replacement.Text = "930"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "„"
+        .Replacement.Text = "940"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "”"
+        .Replacement.Text = "950"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "@"
+        .Replacement.Text = "960"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    With Selection.Find
+        .Text = "%"
+        .Replacement.Text = "970"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = True
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
