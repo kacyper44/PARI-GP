@@ -165,7 +165,7 @@ function showText() {
 	change1 = change1.replaceAll("870",")"); 
 	change1 = change1.replaceAll("880",";"); 
 	change1 = change1.replaceAll("890",":"); 
-	change1 = change1.replaceAll("980","^"); 
+	change1 = change1.replaceAll("980"," "); 
 	change1 = change1.replaceAll("910","–"); 
 	change1 = change1.replaceAll("920","-"); 
 	change1 = change1.replaceAll("930","\""); 
