@@ -6,11 +6,20 @@
   <script src="scripts.js"></script>
 </head>
 <body>
-	<form>	
-		Podaj tekst:
-    		<input type="text" id="inputtxt">
+	<form onsubmit="return false" >
+		<textarea id="inputtxt" cols="40" rows="5" placeholder="Enter text"></textarea>
+		<input type="submit" onClick="showCipher()" value="Uruchom skrypt" >
 	</form>
 	<p id="message"></p>
-	<button type="button" onClick="showCipher()"> Uruchom skrypt </button>
+	
+
+
+	<form onsubmit="return false" >
+		<textarea id="inputtxt1" cols="40" rows="5" placeholder="Enter cipher"></textarea>
+		<input type="submit" onClick="showText()" value="Uruchom skrypt" >
+	</form>
+	
+	<p id="message1"></p>
+
 </body>
 </html>
