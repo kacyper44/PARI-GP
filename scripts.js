@@ -1,10 +1,8 @@
 function showCipher() {
-	
 	let input = document.getElementById("inputtxt").value;
 	let change;
 
 	change = input;
-	change = change.replaceAll("11110",""); 
 	change = change.replaceAll("A","110"); 
 	change = change.replaceAll("a","120"); 
 	change = change.replaceAll("Ą","130"); 
@@ -80,12 +78,103 @@ function showCipher() {
 	change = change.replaceAll("^" ,"980"); 
 	change = change.replaceAll("–" ,"910"); 
 	change = change.replaceAll("-" ,"920"); 
-	change = change.replaceAll(" " ,"930"); 
+	change = change.replaceAll("\"" ,"930"); 
 	change = change.replaceAll("„" ,"940"); 
 	change = change.replaceAll("”" ,"950"); 
 	change = change.replaceAll("@" ,"960"); 
 	change = change.replaceAll("%" ,"970");
-	change = change.replaceAll(/ /g,"990"); 
+	change = change.replaceAll(/\s/g,"990");
   
 	document.getElementById("message").innerHTML = change;
+}
+
+function showText() {
+	let input1 = document.getElementById("inputtxt1").value;
+	let change1;
+
+	change1 = input1;
+	change1 = change1.replaceAll("110","A");
+	change1 = change1.replaceAll("120","a"); 
+	change1 = change1.replaceAll("130","Ą"); 
+	change1 = change1.replaceAll("140","ą"); 
+	change1 = change1.replaceAll("150","B"); 
+	change1 = change1.replaceAll("160","b"); 
+	change1 = change1.replaceAll("170","C"); 
+	change1 = change1.replaceAll("180","c"); 
+	change1 = change1.replaceAll("190","Ć"); 
+	change1 = change1.replaceAll("210","ć"); 
+	change1 = change1.replaceAll("220","D"); 
+	change1 = change1.replaceAll("230","d"); 
+	change1 = change1.replaceAll("240","E"); 
+	change1 = change1.replaceAll("250","e"); 
+	change1 = change1.replaceAll("260","Ę"); 
+	change1 = change1.replaceAll("270","ę"); 
+	change1 = change1.replaceAll("280","F"); 
+	change1 = change1.replaceAll("290","f"); 
+	change1 = change1.replaceAll("310","G"); 
+	change1 = change1.replaceAll("320","g"); 
+	change1 = change1.replaceAll("330","H"); 
+	change1 = change1.replaceAll("340","h"); 
+	change1 = change1.replaceAll("350","I"); 
+	change1 = change1.replaceAll("360","i"); 
+	change1 = change1.replaceAll("370","J"); 
+	change1 = change1.replaceAll("380","j"); 
+	change1 = change1.replaceAll("390","K"); 
+	change1 = change1.replaceAll("410","k"); 
+	change1 = change1.replaceAll("420","L"); 
+	change1 = change1.replaceAll("430","l"); 
+	change1 = change1.replaceAll("440","Ł"); 
+	change1 = change1.replaceAll("450","ł"); 
+	change1 = change1.replaceAll("460","M"); 
+	change1 = change1.replaceAll("470","m"); 
+	change1 = change1.replaceAll("480","N"); 
+	change1 = change1.replaceAll("490","n"); 
+	change1 = change1.replaceAll("510","Ń"); 
+	change1 = change1.replaceAll("520","ń"); 
+	change1 = change1.replaceAll("530","O"); 
+	change1 = change1.replaceAll("540","o"); 
+	change1 = change1.replaceAll("550","Ó"); 
+	change1 = change1.replaceAll("560","ó"); 
+	change1 = change1.replaceAll("570","P"); 
+	change1 = change1.replaceAll("580","p"); 
+	change1 = change1.replaceAll("590","R"); 
+	change1 = change1.replaceAll("610","r"); 
+	change1 = change1.replaceAll("620","S"); 
+	change1 = change1.replaceAll("630","s"); 
+	change1 = change1.replaceAll("640","Ś"); 
+	change1 = change1.replaceAll("650","ś"); 
+	change1 = change1.replaceAll("660","T"); 
+	change1 = change1.replaceAll("670","t"); 
+	change1 = change1.replaceAll("680","U"); 
+	change1 = change1.replaceAll("690","u"); 
+	change1 = change1.replaceAll("710","W"); 
+	change1 = change1.replaceAll("720","w"); 
+	change1 = change1.replaceAll("730","Y"); 
+	change1 = change1.replaceAll("740","y"); 
+	change1 = change1.replaceAll("750","Z"); 
+	change1 = change1.replaceAll("760","z"); 
+	change1 = change1.replaceAll("770","Ź"); 
+	change1 = change1.replaceAll("780","ź"); 
+	change1 = change1.replaceAll("790","Ż"); 
+	change1 = change1.replaceAll("810","ż"); 
+	change1 = change1.replaceAll("820","."); 
+	change1 = change1.replaceAll("830",","); 
+	change1 = change1.replaceAll("840","!"); 
+	change1 = change1.replaceAll("850","?");
+	change1 = change1.replaceAll("860","("); 
+	change1 = change1.replaceAll("870",")"); 
+	change1 = change1.replaceAll("880",";"); 
+	change1 = change1.replaceAll("890",":"); 
+	change1 = change1.replaceAll("980","^"); 
+	change1 = change1.replaceAll("910","–"); 
+	change1 = change1.replaceAll("920","-"); 
+	change1 = change1.replaceAll("930","\""); 
+	change1 = change1.replaceAll("940","„"); 
+	change1 = change1.replaceAll("950","”"); 
+	change1 = change1.replaceAll("960","@"); 
+	change1 = change1.replaceAll("970","%");
+	change1 = change1.replaceAll("990"," ");
+
+  
+	document.getElementById("message1").innerHTML = change1;
 }
